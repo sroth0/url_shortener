@@ -1,0 +1,4 @@
+<% @url_shorts.each do |url_short| %>
+<h1>Original Url: <%= url_short.long_url %></h1>
+<%= link_to url_short_url(url_short), url_short_url(url_short)%>
+<% end %>
